@@ -1,5 +1,4 @@
-package main;
-
+package com.linkedlist;
 import main.com.linkedlist.model.Player;
 import main.com.linkedlist.operation.LinkedList;
 import main.com.linkedlist.util.GenerateMembers;
