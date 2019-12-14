@@ -1,7 +1,6 @@
 package com.linkedlist.util;
 
 import main.com.linkedlist.model.Player;
-import main.com.linkedlist.operation.Member;
 
 import java.util.ArrayList;
 import java.util.List;
