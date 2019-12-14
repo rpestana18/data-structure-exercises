@@ -1,8 +1,7 @@
-package main.com.linkedlist.util;
+package com.linkedlist.util;
 
 import main.com.linkedlist.model.Player;
 import main.com.linkedlist.operation.Member;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
