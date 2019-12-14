@@ -11,7 +11,7 @@ import main.com.linkedlist.util.Interface;
  */
 public class Main {
 
-    public static void main(String... args) {
+    public static void main(String[] args) {
 
         LinkedList list = new LinkedList();
         for (Player player : GenerateMembers.generateList())
