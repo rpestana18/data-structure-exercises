@@ -1,7 +1,7 @@
-package main.com.linkedlist.operation;
+package com.linkedlist.operation;
 
 import main.com.linkedlist.model.Player;
-
+import main.com.linkedlist.operation.MemberOfList;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,8 +11,8 @@ import java.util.List;
  */
 public class LinkedList {
 
-    private Member topOfList;
-    private Member newMember;
+    private MemberOfList topOfList;
+    private MemberOfList newMember;
 
     public LinkedList() {
         this.topOfList = null;
@@ -21,9 +21,9 @@ public class LinkedList {
     /**
      * @return return a list with all members of the linked list
      */
-    public List<Member> listMembers() {
-        List<Member> members = null;
-        Member member = null;
+    public List<MemberOfList> listMembers() {
+        List<MemberOfList> members = null;
+        MemberOfList member;
 
         if (topOfList != null) {
             members = new ArrayList<>();
@@ -49,15 +49,15 @@ public class LinkedList {
      * @param player
      */
     public void insertNewPlayer(Player player) {
-        newMember = new Member();
+        newMember = new MemberOfList();
         newMember.setPlayer(player);
         newMember.setNextPlayer(null);
 
         if (topOfList == null)
             topOfList = newMember;
         else {
-            Member member = topOfList;
-            while (member.getNextPlayer() instanceof Member) {
+            MemberOfList member = topOfList;
+            while (member.getNextPlayer() instanceof MemberOfList) {
                 member = member.getNextPlayer();
             }
             //once the last member identified, we can put the new member on the last position
