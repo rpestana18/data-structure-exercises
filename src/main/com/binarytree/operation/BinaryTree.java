@@ -10,10 +10,10 @@ public class BinaryTree {
         root = null;
     }
 
-    public TreeLeaf find(int chave){
+    public TreeLeaf find(int key){
         TreeLeaf current = root;
-        while(current.iData != chave){
-            if (chave < current.iData)
+        while(current.iData != key){
+            if (key < current.iData)
                 current = current.nextLeft;
             else
                 current = current.nextRight;
