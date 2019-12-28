@@ -4,6 +4,8 @@ A repository to put all exercises about data structure (lists, queues, trees)
 Here you can find some exercises about data structure developed in some languages in order to 
 understand the logic of these structures and their implementation with different languages and their resources.
 
+
+
 **Linked list**
 
 List with dynamic allocation of memory. 
@@ -20,3 +22,9 @@ The MemberOfList class is the class responsible for represent the value of the n
 Package util: classes to be used to execute our list with a simple example of values in order to verify the functionality. GeneratePlayers returns a list of Players to be part of the list and Interface is just a class to show the list.
 
 The Main class execute our example.
+
+
+
+**Doubly Linked List**
+
+Almost the same of the linked list butwith the difference that each member of the list has the previous member reference.
