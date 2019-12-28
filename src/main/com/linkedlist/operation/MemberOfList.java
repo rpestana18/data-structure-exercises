@@ -33,6 +33,6 @@ public class MemberOfList {
                 "name='" + player.getName() + " " +
                 "age="   + player.getAge()  + " " +
                 "team='" + player.getTeam() + " " +
-                "} +  ====> ";
+                "} + > ";
     }
 }

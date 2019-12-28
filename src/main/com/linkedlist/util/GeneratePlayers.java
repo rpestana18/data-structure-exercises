@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Class just to generate some Members for our test
  */
-public class GenerateMembers {
+public class GeneratePlayers {
 
     public static List<Player> generateList(){
 
