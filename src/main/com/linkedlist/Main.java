@@ -19,7 +19,7 @@ public class Main {
 
         LinkedList list = new LinkedList();
         for (Player player : GeneratePlayers.generateList())
-            list.insertNewPlayer(player);
+            list.insertNewMember(player);
 
         Interface.showMemberOfTheLinkedList(list.listMembers());
     }

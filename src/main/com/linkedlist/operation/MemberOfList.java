@@ -9,7 +9,7 @@ import com.linkedlist.model.Player;
 public class MemberOfList {
 
     private Player player;
-    private MemberOfList nextPlayer;
+    private MemberOfList nextMember;
 
     public Player getPlayer() {
         return player;
@@ -19,20 +19,20 @@ public class MemberOfList {
         this.player = player;
     }
 
-    public MemberOfList getNextPlayer() {
-        return nextPlayer;
+    public MemberOfList getNextMember() {
+        return nextMember;
     }
 
-    public void setNextPlayer(MemberOfList nextPlayer) {
-        this.nextPlayer = nextPlayer;
+    public void setNextMember(MemberOfList nextMember) {
+        this.nextMember = nextMember;
     }
 
     @Override
     public String toString() {
-        return "Player{" +
-                "name='" + player.getName() + " " +
-                "age="   + player.getAge()  + " " +
-                "team='" + player.getTeam() + " " +
+        return "Member{\n" +
+                "Player name='" + player.getName() + "\n" +
+                "Player age="   + player.getAge()  + "\n" +
+                "Player team='" + player.getTeam() + "\n" +
                 "} + > ";
     }
 }

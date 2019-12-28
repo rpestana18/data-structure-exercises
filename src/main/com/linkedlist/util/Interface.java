@@ -13,7 +13,7 @@ public class Interface<E> {
         String message = "";
 
         for(Object o : list)
-            message += "\n" + o.toString();
+             message += "\n" + o.toString();
 
         JOptionPane.showMessageDialog(null, message + " final");
 

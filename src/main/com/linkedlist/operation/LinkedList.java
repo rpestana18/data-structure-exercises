@@ -31,7 +31,7 @@ public class LinkedList {
 
             while (member != null) {
                 members.add(member);
-                member = member.getNextPlayer();
+                member = member.getNextMember();
             }
             return members;
         }else
@@ -48,20 +48,20 @@ public class LinkedList {
      * If not, than we need to identify the last member of the list and put the new member after him.
      * @param player
      */
-    public void insertNewPlayer(Player player) {
+    public void insertNewMember(Player player) {
         newMember = new MemberOfList();
         newMember.setPlayer(player);
-        newMember.setNextPlayer(null);
+        newMember.setNextMember(null);
 
         if (topOfList == null)
             topOfList = newMember;
         else {
             MemberOfList member = topOfList;
-            while (member.getNextPlayer() instanceof MemberOfList) {
-                member = member.getNextPlayer();
+            while (member.getNextMember() != null) {
+                member = member.getNextMember();
             }
             //once the last member identified, we can put the new member on the last position
-            member.setNextPlayer(newMember);
+            member.setNextMember(newMember);
         }
     }
 
