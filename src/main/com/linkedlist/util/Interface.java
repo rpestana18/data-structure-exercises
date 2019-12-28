@@ -1,4 +1,4 @@
-package com.linkedlist.operation;
+package com.linkedlist.util;
 
 import javax.swing.*;
 import java.util.List;
@@ -11,10 +11,11 @@ public class Interface<E> {
 
     public static void showMemberOfTheLinkedList(List list){
         String message = "";
+
         for(Object o : list)
             message += "\n" + o.toString();
 
-        JOptionPane.showMessageDialog(null, message);
+        JOptionPane.showMessageDialog(null, message + " final");
 
     }
 }

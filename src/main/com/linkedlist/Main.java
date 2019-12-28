@@ -3,7 +3,7 @@ package com.linkedlist;
 
 
 import com.linkedlist.model.Player;
-import com.linkedlist.operation.Interface;
+import com.linkedlist.util.Interface;
 import com.linkedlist.operation.LinkedList;
 import com.linkedlist.util.GenerateMembers;
 
