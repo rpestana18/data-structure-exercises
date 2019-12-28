@@ -5,6 +5,7 @@ Here you can find some exercises about data structure developed in some language
 understand the logic of these structures and their implementation with different languages and their resources.
 
 **Linked list**
+
 List with dynamic allocation of memory. 
 This list is composted by nodes and every node has the reference (address) of the next node of the list. 
 In case of this reference has the null value, so this node is the last node of the list.
