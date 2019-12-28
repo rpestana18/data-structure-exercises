@@ -1,4 +1,4 @@
-package main.com.linkedlist.model;
+package com.linkedlist.model;
 
 /**
  * Class to create the object that will be a member of the linked list
