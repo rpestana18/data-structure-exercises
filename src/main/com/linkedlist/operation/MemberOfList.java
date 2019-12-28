@@ -1,6 +1,6 @@
-package main.com.linkedlist.operation;
+package com.linkedlist.operation;
 
-import main.com.linkedlist.model.Player;
+import com.linkedlist.model.Player;
 
 /**
  * Class to represent a member of the Linked List
@@ -9,7 +9,7 @@ import main.com.linkedlist.model.Player;
 public class MemberOfList {
 
     private Player player;
-    private main.com.linkedlist.operation.MemberOfList nextPlayer;
+    private MemberOfList nextPlayer;
 
     public Player getPlayer() {
         return player;
@@ -19,11 +19,11 @@ public class MemberOfList {
         this.player = player;
     }
 
-    public main.com.linkedlist.operation.MemberOfList getNextPlayer() {
+    public MemberOfList getNextPlayer() {
         return nextPlayer;
     }
 
-    public void setNextPlayer(main.com.linkedlist.operation.MemberOfList nextPlayer) {
+    public void setNextPlayer(MemberOfList nextPlayer) {
         this.nextPlayer = nextPlayer;
     }
 
