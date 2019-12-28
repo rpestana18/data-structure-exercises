@@ -1,12 +1,11 @@
-# data-structure-exercises
+# Data Structure Exercises
 A repository to put all exercises about data structure (lists, queues, trees)
 
 Here you can find some exercises about data structure developed in some languages in order to 
 understand the logic of these structures and their implementation with different languages and their resources.
 
 
-
-**Linked list**
+**1 - Linked list**
 
 List with dynamic allocation of memory. 
 This list is composted by nodes and every node has the reference (address) of the next node of the list. 
@@ -25,6 +24,7 @@ The Main class execute our example.
 
 
 
-**Doubly Linked List**
+
+**2 - Doubly Linked List**
 
 Almost the same of the linked list butwith the difference that each member of the list has the previous member reference.
