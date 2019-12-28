@@ -1,9 +1,12 @@
 package com.linkedlist;
 
-import main.com.linkedlist.model.Player;
+
+
+import com.linkedlist.model.Player;
+import com.linkedlist.operation.Interface;
 import com.linkedlist.operation.LinkedList;
 import com.linkedlist.util.GenerateMembers;
-import main.com.linkedlist.util.Interface;
+
 
 /**
  * Class to execute the linked list
