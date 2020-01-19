@@ -45,3 +45,9 @@ to write
 
 **Merge Sort**
 to write
+
+**Quick Sort**
+to write
+
+**Selection Sort**
+to write
