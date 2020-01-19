@@ -27,7 +27,7 @@ The Main class execute our example.
 
 **2 - Doubly Linked List**
 
-Almost the same of the linked list butwith the difference that each member of the list has the previous member reference.
+Almost the same of the linked list but with the difference that each member of the list has the previous member reference.
 
 
 
@@ -35,4 +35,7 @@ Almost the same of the linked list butwith the difference that each member of th
 to write
 
 **Binary Search**
+to write
+
+**Sequential Search**
 to write
