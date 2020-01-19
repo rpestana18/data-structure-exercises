@@ -42,3 +42,6 @@ to write
 
 **Bubble Sort**
 to write
+
+**Merge Sort**
+to write
