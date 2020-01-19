@@ -17,16 +17,22 @@ public class SelectionSort {
             array[numberOfNodes++] = i;
     }
 
-    public long[] getList(){
+    public long[] getList() {
         return array;
     }
 
     public void sort() {
-        int in, out;
-        for (out = numberOfNodes - 1; out > 0; out--)
-            for (in = 0; in < out; in++)
-                if (array[in] > array[in + 1])
-                    swap(in, in + 1);
+        for (int i = 0; i < sizeOfArray - 1; i++) {
+            int index = i;
+
+            for (int j = i + 1; j < sizeOfArray; j++)
+                if (array[j] < array[index])
+                    index = j; //searching for lowest index
+
+            long smallerNumber = array[index];
+            array[index] = array[i];
+            array[i] = smallerNumber;
+        }
     }
 
     public void swap(int firstElement, int secondElement) {
