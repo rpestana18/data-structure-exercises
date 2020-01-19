@@ -39,3 +39,6 @@ to write
 
 **Sequential Search**
 to write
+
+**Bubble Sort**
+to write
