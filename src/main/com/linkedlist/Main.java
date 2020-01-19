@@ -1,25 +1,15 @@
 package com.linkedlist;
 
-
-
-import com.linkedlist.model.Player;
-import com.linkedlist.util.Interface;
 import com.linkedlist.operation.LinkedList;
 import com.linkedlist.util.GeneratePlayers;
+import com.linkedlist.util.Interface;
 
-
-/**
- * Class to execute the linked list
- *
- * @author Rodrigo Pestana
- */
 public class Main {
 
     public static void main(String[] args) {
 
         LinkedList list = new LinkedList();
-        for (Player player : GeneratePlayers.generateList())
-            list.insertNewMember(player);
+        GeneratePlayers.generateList().forEach(i -> list.insertNewMember(i));
 
         Interface.showMemberOfTheLinkedList(list.listMembers());
     }
