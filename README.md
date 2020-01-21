@@ -31,7 +31,9 @@ Almost the same of the linked list but with the difference that each member of t
 
 
 
-**3 - Linked list**
+
+**3 - Binary tree**
+
 Binary tree is a data structure in the form of a tree composed of nodes, being constructed in such a way that the nodes of the subtree on the left always go below the root and all nodes of the right subtree have a value greater than the root.
 As the nodes are inserted in the tree, the values ​​are distributed. The first to be inserted is the root node and from the others it will be distributed throughout the structure.
 Main features:
