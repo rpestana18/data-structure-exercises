@@ -32,7 +32,22 @@ Almost the same of the linked list but with the difference that each member of t
 
 
 **Binary Tree**
-to write
+Binary tree is a data structure in the form of a tree composed of nodes, being constructed in such a way that the nodes of the subtree on the left always go below the root and all nodes of the right subtree have a value greater than the root.
+As the nodes are inserted in the tree, the values ​​are distributed. The first to be inserted is the root node and from the others it will be distributed throughout the structure.
+Main features:
+ - The nodes that are above are known as "father" of the nodes below them.
+ - A node that has no children is called a leaf.
+ - Height or depth of a node is the distance from the node to the root.
+ - The degree of a node is the number of children that the node has.
+ - The degree of a tree is the maximum number that the
+
+ The main use of binary trees is binary search trees. In a binary search tree, the three paths that can be taken for any binary tree can be made
+- symmetrical (inordinate paths)
+- pre-order
+- post-order
+
+
+
 
 **Binary Search**
 to write
